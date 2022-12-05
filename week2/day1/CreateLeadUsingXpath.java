@@ -16,7 +16,7 @@ public class CreateLeadUsingXpath {
 		driver.manage().window().maximize();
 		driver.get("http://leaftaps.com/opentaps/control/main");
 		WebElement findElement = driver.findElement(By.xpath("//input[@name='USERNAME']"));
-		findElement.sendKeys("DemoSalesManager");
+		findElement.sendKeys("DemoCSR");
 		WebElement findElement2 = driver.findElement(By.xpath("//input[@name='PASSWORD']"));
 		findElement2.sendKeys("crmsfa");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
