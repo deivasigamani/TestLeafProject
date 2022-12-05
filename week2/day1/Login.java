@@ -17,7 +17,7 @@ public class Login {
 		driver.manage().window().maximize();
 		driver.get("http://leaftaps.com/opentaps/control/main");
 		WebElement findElement = driver.findElement(By.id("username"));
-		findElement.sendKeys("DemoSalesManager");
+		findElement.sendKeys("DemoCSR");
 		WebElement findElement2 = driver.findElement(By.id("password"));
 		findElement2.sendKeys("crmsfa");
 		driver.findElement(By.className("decorativeSubmit")).click();
